@@ -11,6 +11,9 @@ export default function Index() {
       <Link href="/about" style={styles.link}>
         Go to About
       </Link>
+      <Link href="/colors" style={styles.link}>
+        Go to Colours
+      </Link>
     </Page>
   );
 }
