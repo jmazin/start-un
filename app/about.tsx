@@ -1,24 +1,11 @@
-// app/about.tsx
-import { StyleSheet, Text, View } from "react-native";
+// app/index.tsx
+import Page from "@/components/Page";
+import { H1 } from "@/components/headings";
 
-export default function About() {
+export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>About Page</Text>
-      <Text>This is a simple About page.</Text>
-    </View>
+    <Page>
+      <H1>About page</H1>
+    </Page>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 16,
-  },
-  title: {
-    fontSize: 20,
-    marginBottom: 10,
-  },
-});
