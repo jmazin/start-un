@@ -1,4 +1,3 @@
-// app/index.tsx
 import Page from "@/components/Page";
 import { H1 } from "@/components/headings";
 import { Link } from "expo-router";
